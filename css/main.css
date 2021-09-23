@@ -5,6 +5,35 @@
     line-height: 90%;    
 }
 
+/* Makes the header and logo inline */
+.header-logo > img, .header-logo > h1{
+  display: inline;
+}
+
+.header-logo > img {
+  margin-bottom: 16px;
+}
+
+/* centered navigation */
+.nav.navbar-nav {
+  clear: left;
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  text-align: center;
+}
+.nav.navbar-nav > li {
+  position: relative;
+  right: 50%;
+}
+.nav.navbar-nav li {
+ text-align: left
+}
+
+
+
 li a {
     color: black;
     text-align: center;
@@ -20,34 +49,4 @@ li a:hover {
 .site-header  {
     background-color:#EAE7DC
 }
-
-
-
-/* Navigation bar 
-.navi li a:link, a:visited {
-    text-decoration: none;
-    color: black;
-}
-
-.navi li a:hover {
-    background-color: #DEB887;
-}
-
-.navi {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;  
-    background-color:#FAEBD7;
-}
-
-.navi li {
-    float: left;
-}
-
-.navi li a {
-    display: block;
-    padding: 14px 16px;
-}
-*/
-
 
